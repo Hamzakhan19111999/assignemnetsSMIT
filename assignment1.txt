@@ -1,0 +1,226 @@
+//import'dart:io';
+import 'dart:math';
+void main(){
+
+//   bool abc =  9<=10;
+//   print(abc);
+//   bool isemailvalid= false;
+//   bool ispasswordvalid= true;
+//   bool login = isemailvalid || ispasswordvalid;
+//   print(login);
+ 
+//   bool email = true;
+//   bool password = true;
+//   bool result = email && password; 
+//   print(result);
+  
+//   bool email1 = true;
+//   bool password1 = true;
+//   bool result0 = email1 && password1; 
+//   print(result0);
+  
+//   var num1 = 5;
+//   var num2= 3;
+//   var num3 = 6;
+//   var result1 = num1 < num3;
+//   var result2 = num2 <= num2;
+//   var result3 = result1 || !result2; 
+//   var result4 = !(result3 && !result1);
+//   var result9 = !result4 || result4;
+//   print(result9);
+
+//   var finalresult = abc && login && result && result0 && result9;
+//   print('ALL $finalresult');
+  
+//   int age = 18;
+//   if(age <= 21){
+//     print('continue');
+//   }else {
+//     print('you are under 18');
+//   }
+
+  
+//   if(finalresult){
+//     print('LOGINSUCUESSFUL');
+//   }else{
+//     print('WRONG PASSWORD');
+//   }
+ 
+  
+//   int obtainedmarks=46556556665650;
+//   int totalmarks= 500;
+//   var percentage=((obtainedmarks/totalmarks)*100);
+//   if(percentage>100){
+//    print('INVALID');
+//   }else if(percentage>= 40 &&percentage<=100){
+//    print( 'YOUR PERCENTAGE IS : $percentage %');
+//   }else {
+//    print('YOU ARE FAIL');
+//   }
+//   //print('YOUR GRADE IS');
+//      if(percentage>100){
+//     print('INVALID');
+//      }else if(percentage>=80&&percentage<=100){
+//     print('YOUR GRADE IS A+');
+//      }else if(percentage>=70&&percentage<80){
+//     print('YOUR GRADE IS A');
+//      }else if(percentage>=60&&percentage<70){
+//     print('YOUR GRADE IS B');
+//      }else if(percentage>=50&&percentage<60){
+//     print('YOUR GRADE IS C');
+//      }else if(percentage>=40&&percentage<50){
+//     print('YOUR GRADE IS D');
+//      }else {
+//     print('YOU ARE FAIL');
+//      }
+ 
+  
+//     var number = 454454587445;
+//     if (number % 2 == 0) {
+//       print('$number is an even number.');
+//     } else if(number % 1 == 0) {
+//       print('$number is an odd number.');
+//     } else {
+//       print('INVALID NUMBER PLEASE ENTER AN INTERGER NUMBER');
+//     }
+
+  
+  
+//    QUESTION NO.1
+  
+  int lenght = 10;
+  int breath = 12;
+  if (lenght == breath){
+    print('THIS IS SQAURE');
+  }else{
+    print('THIS IS RECTANGLE');
+  }
+  
+// QUESTION MO 2
+  int age1 = 12;
+  int age2 = 10;
+  if(age1>age2){
+    print('$age1 is OLDEST ');
+      print ('$age2 is Youngest');
+  }else if (age1 < age2){
+    print('$age1 is oldest ');
+    print('$age2 is Youngest');
+  }else {
+    print('VAlue is equal');
+  }
+  
+  //QUESTION NO 3
+  int num1 = 16;
+  int num2 = 10;
+  print('TOTAL NUMBER OF CLASSES = $num1');
+  print('NUMBER OF CLASSES ATTENDED = $num2');
+  var percentage = ((num2/ num1) *100);
+  print ('PERCENTAGE OF CLASSES ATTENDED = $percentage %');
+  if (percentage>=75){
+    print('Allow to sit in Exam');
+  }else{
+    print('NOT Allow to sit in exam');
+  }
+   
+  //Question no4
+  int num3 = 10;
+  print ('CELSIUS = $num3 ');
+  var num4 = ((num3* (9/5)+35));
+         print('FARHENHEIT = $num4');
+  
+  
+  
+//QUESTION 5 
+int temp = 12;
+
+print("temperature in centigrade is $temp");
+if (temp < 0) {
+print("Freezing weather");
+} else if (temp >= 0 && temp <= 10) {
+print("Very Cold weather");
+} else if (temp > 10 && temp <= 20) {
+print("Cold weather");
+} else if (temp > 20 && temp <= 30) {
+print("Normal in Temp");
+} else if (temp > 30 && temp <= 40) {
+print("It's Hot");
+} else {
+print("It's Very Hot");
+}
+
+  
+  // Question no 6
+ var input = ('ab');
+  if (input.length == 1 ){//&& input.contains(RegExp(r'[a-z]'))) {
+    if (input == 'a' || input == 'e' || input == 'i' || input == 'o' || input == 'u') {
+      print('$input is a vowel.');
+    } else {
+      print('$input is a consonant.');
+    }
+   
+  } else {
+    print('Invalid input. Please enter a single alphabet.');
+  }
+
+  
+  // question no 7
+  int num5=16;
+  var num6= sqrt(num5);
+  print ('THE SQUARE ROOT OF $num5 is $num6');
+  
+ // Question no 9
+  
+   var number1 = 454454587445;
+    if (number1 % 2 == 0) {
+      print('$number1 is an even number.');
+       if (number1 % 5 == 0) {
+      print('$number1 is divisible by 5.');
+    } else {
+      print('$number1 is not divisible by 5.');
+    }
+
+  } else if(number1 % 1 == 0) {
+      print('$number1 is an odd number.');
+    if (number1 % 7 == 0) {
+      print('$number1 is divisible by 7.');
+    } else {
+      print('$number1 is not divisible by 7.');
+    }
+  } else {
+      print('INVALID NUMBER PLEASE ENTER AN INTERGER NUMBER');
+    }
+
+   
+  
+  
+  //Qno10
+  var num10 = 100;
+  var num20 = 30;
+  var num30 = 300;
+  
+ int greatestNumber = num10;
+ int lowestNumber = num10;
+
+  if (num20 > greatestNumber) {
+    greatestNumber = num20;
+  }
+  if (num30 > greatestNumber) {
+    greatestNumber = num30;
+  }
+
+  if (num20 < lowestNumber) {
+    lowestNumber = num20;
+  }
+  if (num30 < lowestNumber) {
+    lowestNumber = num30;
+  }
+
+  // Print the results
+  print('The greatest number is: $greatestNumber');
+  print('The lowest number is: $lowestNumber');  
+  
+  
+  
+  
+  
+}
